@@ -53,7 +53,7 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
  *
  * @since v2.0.0
  */
-- (id)initWithApiToken:(NSUUID *)apiToken geoFixDecimals:(int)decimals;
+- (id _Nonnull)initWithApiToken:(NSUUID * _Nonnull)apiToken geoFixDecimals:(int)decimals;
 
 
 /**
