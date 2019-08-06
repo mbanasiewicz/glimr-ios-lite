@@ -16,7 +16,7 @@
 		3232B4E918246C47009E75E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3232B4E718246C47009E75E7 /* Main.storyboard */; };
 		3232B4EE18246C47009E75E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3232B4ED18246C47009E75E7 /* Images.xcassets */; };
 		3232B50B18246C51009E75E7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3232B50A18246C51009E75E7 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		327687F0207B91260074A67D /* GLGeoRealtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327687EF207B91260074A67D /* GLGeoRealtime.framework */; };
+		324962F722F9976F0068DF1B /* GLGeoRealtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324962F622F9976F0068DF1B /* GLGeoRealtime.framework */; };
 		328A75601998FDCE00E99A50 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328A755F1998FDCE00E99A50 /* AdSupport.framework */; };
 		32E7FCD81BCBED860024FB94 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E7FCD71BCBED860024FB94 /* CoreTelephony.framework */; };
 		32E7FCE01BCBEE120024FB94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E7FCDF1BCBEE120024FB94 /* SystemConfiguration.framework */; };
@@ -36,7 +36,7 @@
 		3232B4E818246C47009E75E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3232B4ED18246C47009E75E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3232B50A18246C51009E75E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		327687EF207B91260074A67D /* GLGeoRealtime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLGeoRealtime.framework; sourceTree = "<group>"; };
+		324962F622F9976F0068DF1B /* GLGeoRealtime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLGeoRealtime.framework; sourceTree = "<group>"; };
 		328A755F1998FDCE00E99A50 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		32E7FCD71BCBED860024FB94 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		32E7FCDD1BCBEDEC0024FB94 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -52,7 +52,7 @@
 				32E7FCD81BCBED860024FB94 /* CoreTelephony.framework in Frameworks */,
 				328A75601998FDCE00E99A50 /* AdSupport.framework in Frameworks */,
 				3232B50B18246C51009E75E7 /* CoreLocation.framework in Frameworks */,
-				327687F0207B91260074A67D /* GLGeoRealtime.framework in Frameworks */,
+				324962F722F9976F0068DF1B /* GLGeoRealtime.framework in Frameworks */,
 				3232B4D818246C47009E75E7 /* CoreGraphics.framework in Frameworks */,
 				3232B4DA18246C47009E75E7 /* UIKit.framework in Frameworks */,
 				3232B4D618246C47009E75E7 /* Foundation.framework in Frameworks */,
@@ -82,7 +82,7 @@
 		3232B4D418246C47009E75E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				327687EF207B91260074A67D /* GLGeoRealtime.framework */,
+				324962F622F9976F0068DF1B /* GLGeoRealtime.framework */,
 				32E7FCDF1BCBEE120024FB94 /* SystemConfiguration.framework */,
 				32E7FCDD1BCBEDEC0024FB94 /* MobileCoreServices.framework */,
 				32E7FCD71BCBED860024FB94 /* CoreTelephony.framework */,

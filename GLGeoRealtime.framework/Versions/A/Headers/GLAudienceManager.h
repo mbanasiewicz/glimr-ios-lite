@@ -38,7 +38,7 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
 /**
  * Init GLAudienceManager with delegate and apiToken
  *
- * @param apiToken auth token for ad authorization
+ * @param apiToken auth token for api authorization
  *
  * @since v2.0.0
  */
@@ -48,12 +48,24 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
 /**
  * Init GLAudienceManager with delegate and apiToken
  *
- * @param apiToken auth token for ad authorization
- * @param decimals nur of decimals for geo fix resoltion sent to service
+ * @param apiToken auth token for api authorization
+ * @param decimals nur of decimals for geo fix resoltion sent to api
  *
  * @since v2.0.0
  */
 - (id _Nonnull)initWithApiToken:(NSUUID * _Nonnull)apiToken geoFixDecimals:(int)decimals;
+
+
+/**
+ * Init GLAudienceManager with delegate and apiToken and custom device id
+ *
+ * @param apiToken auth token for api authorization
+ * @param decimals nr of decimals for geo fix resoltion sent to api
+ * @param trackId override tracking id with custom device id
+ *
+ * @since v3.0.3
+ */
+- (id _Nonnull)initWithApiToken:(NSUUID * _Nonnull)apiToken geoFixDecimals:(int)decimals trackId:(NSString * _Nonnull)trackId;
 
 
 /**
@@ -84,6 +96,5 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
  * @since v2.0.0
  */
 + (NSString * _Nullable)toQueryString:(NSDictionary * _Nonnull)kv;
-
 
 @end
