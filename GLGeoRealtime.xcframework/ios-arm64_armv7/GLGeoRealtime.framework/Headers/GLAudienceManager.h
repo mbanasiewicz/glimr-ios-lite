@@ -97,4 +97,12 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
  */
 + (NSString * _Nullable)toQueryString:(NSDictionary * _Nonnull)kv;
 
+/**
+ * Property to trigger requestTrackingAuthorization inside the framework
+ *
+ * @return string
+ * @since v3.1.0
+ */
+@property BOOL requestTrackingAuthorization API_AVAILABLE(ios(14));;
+
 @end

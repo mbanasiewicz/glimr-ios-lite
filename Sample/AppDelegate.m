@@ -26,7 +26,9 @@
 
     GLAudienceManager *audienceManager = [[GLAudienceManager alloc] initWithApiToken:apiToken geoFixDecimals:4];
     NSLog(@"Cached tags %@", [audienceManager cachedTags:GLTagResponseFormatFlat]);
-    
+    if (@available(iOS 14, *)) {
+        audienceManager.requestTrackingAuthorization = YES;
+    }
     [audienceManager glimrTagsWithCompletion:^(NSDictionary *audiences, NSError *error) {
         NSLog(@"Tags %@", audiences);
     }];

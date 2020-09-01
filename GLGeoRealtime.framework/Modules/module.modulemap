@@ -1,5 +1,0 @@
-framework module GLGeoRealtime {
-    umbrella header "GLGeoRealtime.h"
-    export *
-    module * { export * }
-}
