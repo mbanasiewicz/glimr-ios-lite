@@ -101,7 +101,7 @@ typedef NS_OPTIONS(NSUInteger, GLTagResponseFormat) {
  * Property to trigger requestTrackingAuthorization inside the framework
  *
  * @return string
- * @since v3.1.0
+ * @since v3.1.1
  */
 @property BOOL requestTrackingAuthorization API_AVAILABLE(ios(14));;
 
