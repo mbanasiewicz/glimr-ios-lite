@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-
+        .library(name: "GLGeoRealtime", targets: ["GLGeoRealtime"])
     ],
     dependencies: [],
     targets: [
