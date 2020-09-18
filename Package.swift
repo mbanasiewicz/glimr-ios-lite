@@ -7,21 +7,12 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "GLGeoRealtime",
-            targets: ["GLGeoRealtime"]
-        )
+
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-    ],
+    dependencies: [],
     targets: [
-        .target(
-            name: "GLGeoRealtime",
-            dependencies: []),
         .binaryTarget(
-            name: "Framework",
+            name: "GLGeoRealtime",
             path: "GLGeoRealtime.xcframework"
         )
     ]
